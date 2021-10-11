@@ -2,6 +2,13 @@ opensuse
 sudo zypper install freeglut-devel
 mkdir build
 cd build/
-cmake ..
 qmake-qt5 ..
+cmake ..
 make
+
+
+
+qmake-qt5 CONFIG+=python CONFIG+=liborigin CONFIG+=aegis ..
+cmake ..
+make
+sudo make install
