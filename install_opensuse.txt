@@ -7,8 +7,8 @@ cmake ..
 make
 
 
-
-qmake-qt5 CONFIG+=python CONFIG+=liborigin CONFIG+=aegis ..
+solve: https://sourceforge.net/p/scidavis/scidavis-bugs/337/
+qmake-qt5 CONFIG+=python CONFIG+=liborigin CONFIG+=aegis .. 
 cmake ..
 make
 sudo make install
